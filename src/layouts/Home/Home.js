@@ -87,9 +87,13 @@ export const Home = () => {
         buttonText="View project"
         buttonLink="/projects/smart-sparrow"
         model={{
-          type: 'laptop',
+          type: 'phone',
           alt: 'Smart Sparrow lesson builder',
           textures: [
+            {
+              srcSet: [sprTexture, sprTextureLarge],
+              placeholder: sprTexturePlaceholder,
+            },
             {
               srcSet: [sprTexture, sprTextureLarge],
               placeholder: sprTexturePlaceholder,
@@ -108,7 +112,7 @@ export const Home = () => {
         buttonText="View project"
         buttonLink="https://github.com/Cat-meoww/Assert-Mangement"
         model={{
-          type: 'phone',
+          type: 'laptop',
           alt: 'App login screen',
           textures: [
             {
@@ -132,10 +136,13 @@ export const Home = () => {
         buttonText="View project"
         buttonLink="/projects/slice"
         model={{
-          type: 'laptop',
+          type: 'phone',
           alt: 'Customer Relation Mangement',
           textures: [
             {
+              srcSet: [sliceTexture, sliceTextureLarge],
+              placeholder: sliceTexturePlaceholder,
+            },{
               srcSet: [sliceTexture, sliceTextureLarge],
               placeholder: sliceTexturePlaceholder,
             },

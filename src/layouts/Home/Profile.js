@@ -21,15 +21,17 @@ const ProfileText = ({ visible, titleId }) => (
       <DecoderText text="Hi there" start={visible} delay={500} />
     </Heading>
     <Text className={styles.description} data-visible={visible} size="l" as="p">
-      I’m Hamish, currently I live in Sydney working as a senior product designer at{' '}
-      <Link href="https://www.qwilr.com">Qwilr</Link>. My projects include UX design, UI
-      animations, and icon illustration. Being comfortable with code allows me to rapidly
+      I’m Naveen, currently I live in India and I am a {' '}<Link href="/">Full stack Developer </Link>
+      .I Create Dynamic website pages and I am LAMP stack developer.
+      Recently started to shift my stack over JS-based platform. 
+      So started to learn Svelte kit which is beginner friendly. 
+      I have ablity to  Modeling databases, Create rest API Services, Fix Bugs, wireframe Prototyping & Design UI. 
+      Being comfortable with code allows me to rapidly
       prototype and validate experiences. If you’re interested in the tools and software I
       use check out my <Link href="/uses">uses page</Link>.
     </Text>
     <Text className={styles.description} data-visible={visible} size="l" as="p">
-      In my spare time I like to practice Brazilian Jiu Jitsu, play video games, and{' '}
-      <Link href="/projects/volkihar-knight">make mods</Link>. I’m always down for hearing
+      In my spare time I like to R&D on web development, Learning new courses and skills, watching movies and streams, play video games{' '}. I’m always down for hearing
       about new projects, so feel free to drop me a line.
     </Text>
   </Fragment>
